@@ -3,7 +3,6 @@
     padding: 0;
     margin: 0;
 }
-article {
 
 }
 
@@ -11,7 +10,8 @@ body {
     background-color: #d9dcd6;
 }
 
-/* changed styling in header; added a container for the header links */
+/* changed styling in header; added a container for the header links and 
+removed code bellow calling it's previous class */
 header {
     display: flex;
     align-items: center;
@@ -65,6 +65,7 @@ p {
     font-size: 16px;
 }
 
+/* REMOVED CODE
 .hero {
     height: 800px;
     width: 100%;
@@ -72,7 +73,8 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
-}
+ } */
+
 
 .float-left {
     float: left;
